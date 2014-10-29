@@ -1,17 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>All Users</title>
+@extends('layouts.default')
 
-</head>
-<body>
+@section('content')
 
 <h1>User</h1>
 
+	<li>{{ $users->username }}</li>
 
-	<li>{{ $user->username }}</li>
-
-
-</body>
-</html>
+@stop
